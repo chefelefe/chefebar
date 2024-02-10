@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefebar</title>
+<link rel="stylesheet" href="estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <header class="contenido-encabezado" id="contenido-encabezado">
+        <div class="texto-encabezado">
+            <p class="icono">
+                <i class="fa-solid fa-champagne-glasses"></i>
+            </p>
+            <h1 class="titulo">Chefebar <br>Inauguración!<br>
+                <span class="titulo-verde-neon texto-regular"> 2x1 en cerveza</span>
+             </h1>
+             <p class="descripcion">
+                Tenemos nueva sucursal <br>
+                Sorteos, show en vivo y karaoke <br>
+                
+             </p>
+             <a href="#" class="btn-link texto-regular">Más información</a>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor">
+            <h2 class="subtitulo-h2">Servicios</h2>
+            <p><span class="letra-capital">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum, consequatur error tempore voluptate quia vitae reprehenderit, debitis deleniti dicta obcaecati tempora in corrupti expedita ratione? Nostrum, optio. Officiis, corrupti.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit corporis ducimus dolores nesciunt sint, quisquam voluptatibus cupiditate sunt odio dicta animi veritatis vitae architecto, accusantium ratione quam totam dignissimos.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus, libero adipisci dicta minus voluptas modi reprehenderit atque distinctio possimus doloremque laudantium odit at aut, rerum animi amet maxime harum.</p>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/77112e87ed.js"></script>
+    <script>
+        window.addEventListener('scroll',() =>{
+            const header = document.getElementById('contenido-encabezado');
+            header.style.opacity = '1' - window.pageYOffset / 650;
+
+        })
+    </script>
+</body>
+
+</html>
